@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a Git y GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            color: #00698f;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introducción a Git y GitHub</h1>
+    <section>
+        <h2>Git</h2>
+        <p><strong>¿Qué es Git?</strong> Git es un sistema de control de versiones de código abierto y gratuito que permite a los desarrolladores realizar un seguimiento de los cambios en su código y colaborar en proyectos de manera efectiva.</p>
+        <p><strong>Instalación de Git</strong>: Para instalar Git, puedes descargar el instalador desde la página oficial de Git y seguir las instrucciones de instalación.</p>
+        <p><strong>Configuración inicial de Git</strong>: Una vez instalado Git, debes configurar tu nombre de usuario y dirección de correo electrónico con los siguientes comandos:</p>
+        <code>git config --global user.name "Tu Nombre"<br>git config --global user.email "tu.correo@example.com"</code>
+    </section>
+    <section>
+        <h2>GitHub</h2>
+        <p><strong>¿Qué es GitHub?</strong> GitHub es una plataforma de desarrollo de software que ofrece alojamiento de repositorios Git, colaboración en proyectos y herramientas de desarrollo integradas.</p>
+        <p><strong>Crear una cuenta en GitHub</strong>: Para crear una cuenta en GitHub, ve a la página de inicio de GitHub y sigue las instrucciones de registro.</p>
+        <p><strong>Diferencias y similitudes entre Git y GitHub</strong>: Git es un sistema de control de versiones, mientras que GitHub es una plataforma que ofrece alojamiento de repositorios Git y herramientas de colaboración. Git se puede utilizar de manera local, mientras que GitHub es una plataforma en la nube que permite la colaboración en proyectos.</p>
+    </section>
+    <section>
+        <h2>Creación de un Repositorio Local</h2>
+        <p>Para crear un repositorio local, debes utilizar los siguientes comandos:</p>
+        <code>git init</code>
+        <p>Este comando inicializa un nuevo repositorio Git en la carpeta actual.</p>
+        <code>git status</code>
+        <p>Este comando muestra el estado actual del repositorio, incluyendo los archivos modificados y los archivos que no están siendo rastreados.</p>
+        <code>git add &lt;file&gt;</code>
+        <p>Este comando agrega un archivo específico al staging area.</p>
+        <code>git commit -m "Mensaje de commit"</code>
+        <p>Este comando crea un nuevo commit con los cambios en el staging area y agrega un mensaje de commit.</p>
+        <p><strong>Estructura de un proyecto en Git</strong>: Un proyecto en Git se organiza en una carpeta raíz que contiene los archivos y carpetas del proyecto. La carpeta `.git` contiene los archivos de configuración y los datos del repositorio.</p>
+    </section>
+</body>
+</html>
